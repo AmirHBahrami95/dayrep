@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# no need to push the repository
+data/
+
 # C extensions
 *.so
 
