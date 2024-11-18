@@ -23,7 +23,6 @@ def __db_init_table(conn):
 def db_init(path):
 	""" makes a connection to the path .db file (makes one if it doesn't exist) and returns the connection.
 		XXX do not forget to close it XXX """
-
 	if not path.endswith(".db"):
 		print("invalid path!")
 		return None
@@ -39,7 +38,6 @@ def db_init(path):
 
 def db_put(conn,title,descr="",done=False,date=None,weight=0):
 	""" only title is required and date is yyyy-mm-dd format. duplicate row's are not removed in database! """
-
 	if date==None:
 		date=get_today_str()
 	done=int(done)

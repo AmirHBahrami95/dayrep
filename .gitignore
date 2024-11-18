@@ -5,6 +5,11 @@ __pycache__/
 
 # no need to push the repository
 data/
+assets/
+reps/
+
+# vim files
+*.swp
 
 # C extensions
 *.so
